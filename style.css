@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  /* font-weight: 20px; */
+  background: #000 url(./demo-bg.jpg) 0 0 repeat;
+  background-size: cover;
+}
+nav {
+  background-color: #101c28;
+  border: none;
+  border-radius: 90px;
+  display: flex;
+  padding: 16px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 200px;
+}
+li {
+  /* font-weight: bold; */
+  padding: 8px;
+  margin-left: 20px;
+  font-family: Raleway;
+  font-weight: 16px;
+}
+.get-started {
+  padding: 8px 12px;
+  background: #e3a127;
+  color: white;
+  position: relative;
+  left: 280px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #e3a127;
+}
+#Home {
+  color: #e3a127;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rebeccapurple;
+}
+
+section h1 {
+  font-size: 80px;
+  margin-top: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif sans-serif;
+}
+img {
+  height: 400px;
+  width: 400px;
+}
+.description {
+  height: 180px;
+  border: 1px red solid;
+  width: 100%;
+  margin-left: 40px;
+}
+p {
+  font-size: 16px;
+  height: 40px;
+  width: 580px;
+  line-height: 25px;
+  margin: 10px;
+}
+/* CSS DROPDOWN */
+
+.dropbtn {
+  background-color: #101c28;
+  padding: 10.4px;
+  font-size: 16px;
+  border: none;
+  margin-left: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #101c28;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #e3a127;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #101c28;
+}
