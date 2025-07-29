@@ -126,3 +126,30 @@ p {
 .dropdown:hover .dropbtn {
   background-color: #101c28;
 }
+/* FOOTER SECTION  */
+footer {
+  background-color: #101c28;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+}
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+}
